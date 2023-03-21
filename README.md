@@ -94,11 +94,40 @@ $ git status
 
 For see all commit of repo 
 
-### Syntax
-
+```
+$ git log
+```
 - Search using `/` then wirte text
 - Quit pass `q`
 
+### Arguments
+
+#### One line
+Show and condance our commits to single line
+
+``` 
+$ git log --oneline
 ```
-$ git log
+
+### Decorate
+Show refrence of commit that is mean see sequence of branch of commit.
+
+``` 
+$ git log --decorate
+```
+### Graph
+Show sequence's events of branch of commit. 
+that is mean how it came from and where it go 
+
+
+``` 
+$ git log --graph
+```
+
+### p
+Show change of each commit
+
+
+``` 
+$ git log -p
 ```
