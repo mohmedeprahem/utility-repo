@@ -156,3 +156,15 @@ Show diff between stage and unstage area
 Show diff bettwen two branch
 
 `$ git diff main`
+
+## Git blame
+Show when last time change text line in file
+
+```
+$ git blame namefile.ext
+```
+### Power of blame
+When you write above command you can copy id of line changed like this id `f729fc16` and past it to `git log` command you will see all commit about this line.
+```
+$ git log f729fc16
+```
