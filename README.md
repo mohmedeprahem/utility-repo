@@ -135,6 +135,7 @@ $ git log -p
 ## Git diff
 
 Show diff between you working directory and last commit
+
 `$ git diff `
 
 ### Arguments
@@ -142,13 +143,16 @@ Show diff between you working directory and last commit
 #### cached 
 
 Show diff betweeen stage area and last commit
+
 `$ git diff --cached`
 
 #### Head
 
-`$ git diff HEAD`
 Show diff between stage and unstage area
+
+`$ git diff HEAD`
 
 #### Branch
 Show diff bettwen two branch
+
 `$ git diff main`
