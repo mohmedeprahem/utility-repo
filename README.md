@@ -31,8 +31,28 @@ $ git fetch
 $ git merge 
 //=> "Merge fetcted repo with my local repo"
 ```
+$ git merge name-branch
+//=> "Merge branch you are in with branch called 'name-brach'"
 
 ```
 $ git pull 
 //=> "Fetch and Merge repo at the time"
+```
+```
+$ git branch
+//=> "See all branch of repo"
+```
+
+```
+$ git branch {add-name}
+//=> "Create new branch called 'add-name'"
+```
+```
+$ git checkout -b add-name
+//=> "Create and move to new branch called 'add-name'"
+```
+
+```
+$ git checkout -d add-name
+//=> "Delete branch called add-name"
 ```
