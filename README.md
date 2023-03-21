@@ -19,5 +19,15 @@ git commit
 
 ```
 git push
-//=> "Push your change to github rapo"
+//=> "Push your change to github repo"
+```
+
+```
+git fetch 
+//=> "Grap last change of repo without marge it to my local code "
+```
+
+```
+git merge 
+//=> "Merge fetcted repo with my local repo"
 ```
