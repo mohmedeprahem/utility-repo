@@ -80,3 +80,12 @@ there are 2 task:
 
 when u work on secand task Sort users and remember u need to Add users task first but u dont wanna commit secand task with first stack so use "git stach" command 
 
+## Conflict 
+
+The big problem in git if anther one change file when u want push it becouse that's make conflict to fix that, first write 'git pull' to get last update of rapo then write 'git status' to know which file make conflict then move to file and fix it then commit and push it
+
+```
+$ git pull 
+$ git status 
+"then fix files and push it"
+```
