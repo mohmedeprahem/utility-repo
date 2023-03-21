@@ -177,4 +177,12 @@ $ git rebase -i main
 ```
 ## Hooks 
 Git lets us run scripts on git events like pre-commit, pre-rebase, post-commit, post-merge, post-checkout, etc. You can do this by adding an executable file to the ./git/hooks directory which has a name matching the git hook name. In this lesson, we walk through this process by setting up a pre-commit hook which runs our npm test and npm run lint npm scripts to ensure we don't have any failing tests or lint errors before committing.
-- outher https://egghead.io/lessons/tools-practical-git-run-scripts-on-git-events-with-git-hooks
+
+## .gitconfig
+
+You can set up global "git config" settings that apply to all git projects on your system. In this lesson, we review how the ./gitconfig file works. We then add our own git config settings: username, email, editor, and git aliases.
+There are many other git config commands that can be used, but this lesson shows you pattern behind them all so you can view and edit your own settings.
+
+## .gitignor_ g
+
+If you regularly use code editors, GUI tools or other programs that automatically create files and folders, you may want to set up a global .gitignore file which will apply to every repo on your machine. In this lesson, we show how to do that by creating a .gitignore_global file with the dotfiles in our ~/ root directory, and then link it to all git repos using our global .gitconfig.
