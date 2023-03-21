@@ -96,9 +96,8 @@ For see all commit of repo
 
 ### Syntax
 
-- Search using `</>` then wirte text
-- quit pass `<q>`
-
+- Search using `/` then wirte text
+- Quit pass `q`
 
 ```
 $ git log
