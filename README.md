@@ -175,3 +175,6 @@ Edit commits didnt push to repo
 ```
 $ git rebase -i main
 ```
+## Hooks 
+Git lets us run scripts on git events like pre-commit, pre-rebase, post-commit, post-merge, post-checkout, etc. You can do this by adding an executable file to the ./git/hooks directory which has a name matching the git hook name. In this lesson, we walk through this process by setting up a pre-commit hook which runs our npm test and npm run lint npm scripts to ensure we don't have any failing tests or lint errors before committing.
+- outher https://egghead.io/lessons/tools-practical-git-run-scripts-on-git-events-with-git-hooks
