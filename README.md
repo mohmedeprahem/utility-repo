@@ -58,3 +58,25 @@ $ git checkout -b add-name
 $ git checkout -d add-name
 //=> "Delete branch called add-name"
 ```
+
+## Git Stach
+```
+$ git add -A
+$ git stach 
+//=> "Move your edit code to temporary .git file and make it hiden"
+```
+it is usefull if there task has piority than anther task
+
+after finish piority task and commit it 
+``` 
+$ git stach apply 
+```
+
+### for  example 
+
+there are 2 task: 
+1. Add users
+2. Sort users by name
+
+when u work on secand task Sort users and remember u need to Add users task first but u dont wanna commit secand task with first stack so use "git stach" command 
+
