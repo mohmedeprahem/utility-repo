@@ -168,3 +168,10 @@ When you write above command you can copy id of line changed like this id `f729f
 ```
 $ git log f729fc16
 ```
+## git rebase
+
+Edit commits didnt push to repo
+
+```
+$ git rebase -i main
+```
