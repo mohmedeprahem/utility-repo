@@ -89,3 +89,17 @@ $ git pull
 $ git status 
 "then fix files and push it"
 ```
+
+## Git log
+
+For see all commit of repo 
+
+### Syntax
+
+- Search using `</>` then wirte text
+- quit pass `<q>`
+
+
+```
+$ git log
+```
