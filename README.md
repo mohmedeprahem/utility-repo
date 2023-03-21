@@ -109,13 +109,13 @@ Show and condance our commits to single line
 $ git log --oneline
 ```
 
-### Decorate
+#### Decorate
 Show refrence of commit that is mean see sequence of branch of commit.
 
 ``` 
 $ git log --decorate
 ```
-### Graph
+#### Graph
 Show sequence's events of branch of commit. 
 that is mean how it came from and where it go 
 
@@ -124,10 +124,35 @@ that is mean how it came from and where it go
 $ git log --graph
 ```
 
-### p
-Show change of each commit
+#### p
+Show what is changed of each commit
 
 
 ``` 
 $ git log -p
 ```
+
+## Git diff
+
+`$ git diff `
+
+Show diff between you working directory and last commit
+
+### Arguments
+
+#### cached 
+
+`$ git diff --cached`
+Show diff betweeen stage area and last commit
+
+#### Head
+
+`$ git diff HEAD`
+
+Show diff between stage and unstage area
+
+#### Branch
+
+`$ git diff main`
+
+Show diff bettwen two branch
