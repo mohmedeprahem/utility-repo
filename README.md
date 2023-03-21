@@ -31,8 +31,10 @@ $ git fetch
 $ git merge 
 //=> "Merge fetcted repo with my local repo"
 ```
+```
 $ git merge name-branch
 //=> "Merge branch you are in with branch called 'name-brach'"
+```
 
 ```
 $ git pull 
