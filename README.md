@@ -31,3 +31,8 @@ git fetch
 git merge 
 //=> "Merge fetcted repo with my local repo"
 ```
+
+```
+git pull 
+//=> "Fetch and Merge repo at the time"
+```
